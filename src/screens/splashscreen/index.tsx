@@ -1,38 +1,23 @@
 import {images} from '@/assets/images';
-import { colors } from '@/tamagui/config';
+import { useAnimateSplash } from '@/hooks/useAnimateSplash';
+import { NavParam } from '@/navigations/types';
+import { useNavigation } from '@react-navigation/native';
+import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import React, {useEffect} from 'react';
 import {StyleSheet} from 'react-native';
-import Animated, {
-  useSharedValue,
-  useAnimatedStyle,
-  withTiming,
-} from 'react-native-reanimated';
+import Animated  from 'react-native-reanimated';
 import {YStack} from 'tamagui';
 
 const SplashScreen = () => {
-  const textOpacity = useSharedValue(0);
-  const imageOpacity = useSharedValue(0);
-  const backgroundColor = useSharedValue(colors.theme);
+  const navigation = useNavigation<NativeStackNavigationProp<NavParam, 'SplashScreen'>>();
+  const {textAnimatedStyle, backgroundAnimatedStyle, imageAnimatedStyle} = useAnimateSplash()
 
   useEffect(() => {
-    imageOpacity.value = withTiming(1, {duration: 2000}, () => {
-      backgroundColor.value = withTiming(colors.theme, {duration: 2000});
-      textOpacity.value = withTiming(1, {duration: 2000});
-    });
-  }, []);
-
-  const textAnimatedStyle = useAnimatedStyle(() => ({
-    opacity: textOpacity.value,
-  }));
-
-  const imageAnimatedStyle = useAnimatedStyle(() => ({
-    opacity: textOpacity.value,
-  }));
-
-  const backgroundAnimatedStyle = useAnimatedStyle(() => ({
-    backgroundColor: backgroundColor.value,
-  }));
-
+    setTimeout(() => {
+      navigation.navigate('Home');
+    }, 3000);
+  }, [])
+  
   return (
     <Animated.View style={[styles.container, backgroundAnimatedStyle]}>
       <YStack rowGap={10} alignItems="center">

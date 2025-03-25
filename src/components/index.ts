@@ -1,2 +1,3 @@
-export * from './XStack'
-export * from './YStack'
+export * from './Typography';
+export * from './Carousel'
+export * from './MenuHome'

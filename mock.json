@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "title": "Trip to Gunung Bromo",
+    "summary": "Experience the breathtaking sunrise at Mount Bromo, explore the sea of sand, and visit the famous crater.",
+    "location": "East Java, Indonesia",
+    "price_per_pax": 750000,
+    "currency": "IDR",
+    "photos": {
+      "owner": [
+        "https://awsimages.detik.net.id/community/media/visual/2019/03/08/96d60356-f54f-4b9d-a5af-4cbc8c24f3c7_43.jpeg?w=1200",
+        "https://pbsu.pphotels.com/application/sites/pbsu/userfiles/news/GunungBromo.jpg"
+      ],
+      "visitors": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXZq5-eQgPwnLXZVz_HqLMsjtWQ0QBgnDhIg&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKPHP7bvZpONKJ3rLPfrMazOifnYFWZ5IdtQ&s"
+      ]
+    },
+    "rating": 4.8,
+    "reviews": [
+      {
+        "user": "John Doe",
+        "rating": 5,
+        "comment": "Absolutely stunning view! The sunrise was magical."
+      },
+      {
+        "user": "Jane Smith",
+        "rating": 4.5,
+        "comment": "Great trip, but the hike was a bit tiring."
+      }
+    ],
+    "include": [
+      "Transportation from Malang/Surabaya",
+      "Entrance ticket to Bromo",
+      "Local guide",
+      "Jeep tour to the crater",
+      "Breakfast"
+    ],
+    "exclude": [
+      "Personal expenses",
+      "Horse ride at Bromo",
+      "Lunch & Dinner"
+    ],
+    "terms_conditions": [
+      "Booking must be made at least 3 days in advance.",
+      "Minimum 2 persons per booking.",
+      "Cancellation is non-refundable."
+    ],
+    "duration": "1 Day",
+    "pax_minimum": 2,
+    "pax_maximum": 10
+  },
+  {
+    "id": 2,
+    "title": "Trip to Dieng Plateau",
+    "summary": "Enjoy the cool weather and visit the stunning temples, colorful lakes, and highland scenery of Dieng.",
+    "location": "Central Java, Indonesia",
+    "price_per_pax": 650000,
+    "currency": "IDR",
+    "photos": {
+      "owner": [
+        "https://ruko.s3.ap-southeast-1.amazonaws.com/rumahkomunitas.com/tulisan/270320042631_dieng-plateau-sunrise-diy-walking-tour-jave-indonesia-12.jpg",
+        "https://diengplateau.com/wp-content/uploads/2023/07/Batu-Pandang-Ratapan-Angin.jpeg"
+      ],
+      "visitors": [
+        "https://labirutour.com/wp-content/uploads/2023/05/Wisata-Dieng-Plateau-Theater.jpg",
+        "https://sumbingsegar.com/wp-content/uploads/2022/02/SitusPeninggalanJalanMenujuDataranTinggiDieng.jpg"
+      ]
+    },
+    "rating": 4.7,
+    "reviews": [
+      {
+        "user": "Alice Walker",
+        "rating": 5,
+        "comment": "Dieng is a hidden gem! The temples and lakes are so beautiful."
+      },
+      {
+        "user": "David Brown",
+        "rating": 4.3,
+        "comment": "The cold weather is refreshing, but the road to Dieng is quite winding."
+      }
+    ],
+    "include": [
+      "Transportation from Yogyakarta/Semarang",
+      "Entrance ticket to Dieng attractions",
+      "Local guide",
+      "Lunch"
+    ],
+    "exclude": [
+      "Personal expenses",
+      "Dinner"
+    ],
+    "terms_conditions": [
+      "Booking must be made at least 3 days in advance.",
+      "Minimum 2 persons per booking.",
+      "50% refund for cancellations 24 hours before the trip."
+    ],
+    "duration": "1 Day",
+    "pax_minimum": 2,
+    "pax_maximum": 15
+  },
+  {
+    "id": 3,
+    "title": "Trip to Bali",
+    "summary": "Discover the beauty of Bali with stunning beaches, temples, and rich culture.",
+    "location": "Bali, Indonesia",
+    "price_per_pax": 2500000,
+    "currency": "IDR",
+    "photos": {
+      "owner": [
+        "https://media.istockphoto.com/id/675172642/id/foto/pura-ulun-danu-bratan-temple-in-bali.jpg?s=612x612&w=0&k=20&c=s9gPvaz50WWHwkdZHZDUE4lEXXsHw3NmLFIwAed6aD0=",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEoqNDgdLiRMAeBUdbsF_iyNIpWhK-u6uGGQ&s"
+      ],
+      "visitors": [
+        "https://perkantas.net/wp-content/uploads/2022/02/BALI-1.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5QNixE1TzVu-A9cWlwmxrh-beRhz8oEM41g&s"
+      ]
+    },
+    "rating": 4.9,
+    "reviews": [
+      {
+        "user": "Emily Johnson",
+        "rating": 5,
+        "comment": "Bali is a paradise! Every place we visited was amazing."
+      },
+      {
+        "user": "Michael Lee",
+        "rating": 4.7,
+        "comment": "Wonderful experience! The tour was well-organized."
+      }
+    ],
+    "include": [
+      "Accommodation (3 nights)",
+      "Transportation in Bali",
+      "Entrance tickets to attractions",
+      "Breakfast and Dinner",
+      "Local guide"
+    ],
+    "exclude": [
+      "Personal expenses",
+      "Lunch",
+      "Flight tickets"
+    ],
+    "terms_conditions": [
+      "Booking must be made at least 7 days in advance.",
+      "Minimum 2 persons per booking.",
+      "No refund for cancellations."
+    ],
+    "duration": "4 Days 3 Nights",
+    "pax_minimum": 2,
+    "pax_maximum": 20
+  },
+  {
+    "id": 4,
+    "title": "Trip to Komodo Island",
+    "summary": "Sail to Komodo Island and see the legendary Komodo dragons in their natural habitat.",
+    "location": "East Nusa Tenggara, Indonesia",
+    "price_per_pax": 3500000,
+    "currency": "IDR",
+    "photos": {
+      "owner": [
+        "https://media-cdn.tripadvisor.com/media/photo-s/17/58/88/30/explore-komodo-indonesia.jpg",
+        "https://static.saltinourhair.com/wp-content/uploads/2018/10/23125631/komodo-islands-flores.jpg"
+      ],
+      "visitors": [
+        "https://helloflores.com/wp-content/uploads/2019/10/KomodoIsland_galley.jpg",
+        "https://www.komodoluxury.com/wp-content/uploads/2022/08/komodo-dragon-island2-1024x1024.webp"
+      ]
+    },
+    "rating": 4.8,
+    "reviews": [
+      {
+        "user": "Sarah Wilson",
+        "rating": 5,
+        "comment": "Seeing the Komodo dragons up close was an unforgettable experience!"
+      },
+      {
+        "user": "Daniel Martin",
+        "rating": 4.6,
+        "comment": "The boat trip was great, but the weather was a bit hot."
+      }
+    ],
+    "include": [
+      "Boat trip to Komodo Island",
+      "Entrance ticket to Komodo National Park",
+      "Local guide",
+      "Snorkeling gear"
+    ],
+    "exclude": [
+      "Personal expenses",
+      "Lunch & Dinner"
+    ],
+    "terms_conditions": [
+      "Booking must be made at least 5 days in advance.",
+      "Minimum 2 persons per booking.",
+      "No refund for cancellations."
+    ],
+    "duration": "3 Days 2 Nights",
+    "pax_minimum": 2,
+    "pax_maximum": 12
+  },
+  {
+    "id": 5,
+    "title": "Trip to Kepulauan Seribu",
+    "summary": "Explore the beautiful islands of Kepulauan Seribu, enjoy snorkeling, island hopping, and relax on white sandy beaches.",
+    "location": "Jakarta, Indonesia",
+    "price_per_pax": 550000,
+    "currency": "IDR",
+    "photos": {
+      "owner": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYxZdOOvmJP7dyIDR6nhMuWzUmHNXKB85hfA&s",
+        "https://pulauseribu.co.id/wp-content/uploads/wisata-alam-pulau-cipir-di-kepulauan-seribu-jakarta.jpg"
+      ],
+      "visitors": [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/72/f1/7f/island.jpg?w=1200&h=1200&s=1",
+        "https://asset.kompas.com/crops/hKUlxS0pmhMk0u6GfzkRrbm1zl8=/17x0:860x562/1200x800/data/photo/2023/06/14/648977a1a2bef.jpg"
+      ]
+    },
+    "rating": 4.7,
+    "reviews": [
+      {
+        "user": "Amanda Clark",
+        "rating": 5,
+        "comment": "Beautiful island getaway near Jakarta. Perfect for a weekend escape!"
+      },
+      {
+        "user": "William Harris",
+        "rating": 4.5,
+        "comment": "Loved the snorkeling spots, but some islands were a bit crowded."
+      }
+    ],
+    "include": [
+      "Boat transportation from Marina Ancol",
+      "Island hopping tour",
+      "Snorkeling gear rental",
+      "Lunch and bottled water",
+      "Local tour guide"
+    ],
+    "exclude": [
+      "Personal expenses",
+      "Dinner",
+      "Additional water activities (jetski, banana boat)"
+    ],
+    "terms_conditions": [
+      "Booking must be made at least 2 days in advance.",
+      "Minimum 4 persons per booking.",
+      "50% refund available for cancellations 48 hours before the trip."
+    ],
+    "duration": "1 Day",
+    "pax_minimum": 4,
+    "pax_maximum": 15
+}
+
+]
