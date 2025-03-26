@@ -13,6 +13,7 @@ export const MenuHome = () => {
     <XStack columnGap={10} rowGap={10} flexWrap="wrap">
       {menu.map(item => (
         <Button
+          key={item.id}
           borderWidth={1}
           borderColor={selectedMenu.id === item.id ? 'blue' : 'gray'}
           onPress={() => setSelectedMenu(item)}
