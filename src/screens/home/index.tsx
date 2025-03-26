@@ -19,14 +19,15 @@ const Home = () => {
   const {trips, isFetching} = useTrips();
 
   const [listMode, setListMode] = useState<'list' | 'stack'>('list');
+  const [carouselCurrentIndex, setCarouselCurrentIndex] = useState(0)
 
   const imageSource = useMemo(() => {
     if (trips.length > 0) {
-      return {uri: trips[0].photos.owner[0]};
+      return {uri: trips[carouselCurrentIndex].photos.owner[0]};
     } else {
       return images.logo;
     }
-  }, [trips]);
+  }, [trips, carouselCurrentIndex]);
 
   return (
     <ImageBackground
@@ -65,7 +66,7 @@ const Home = () => {
               )}
             </XStack>
             {isFetching && <ActivityIndicator size="large" />}
-            <CarouselComponent data={trips} listMode={listMode} />
+            <CarouselComponent data={trips} listMode={listMode} onSnapToItem={setCarouselCurrentIndex} />
             <Typography variant="$heading-20" color={colors.white}>
               Your Needs
             </Typography>

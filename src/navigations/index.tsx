@@ -1,7 +1,7 @@
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {screens} from './types';
 
-const Stack = createNativeStackNavigator();
+export const Stack = createNativeStackNavigator();
 
 function Navigations() {
   return (

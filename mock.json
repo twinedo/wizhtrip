@@ -48,7 +48,8 @@
     ],
     "duration": "1 Day",
     "pax_minimum": 2,
-    "pax_maximum": 10
+    "pax_maximum": 10,
+    "tag": "open"
   },
   {
     "id": 2,
@@ -97,7 +98,8 @@
     ],
     "duration": "1 Day",
     "pax_minimum": 2,
-    "pax_maximum": 15
+    "pax_maximum": 15,
+    "tag": "private"
   },
   {
     "id": 3,
@@ -148,7 +150,8 @@
     ],
     "duration": "4 Days 3 Nights",
     "pax_minimum": 2,
-    "pax_maximum": 20
+    "pax_maximum": 20,
+    "tag": "open"
   },
   {
     "id": 4,
@@ -197,7 +200,8 @@
     ],
     "duration": "3 Days 2 Nights",
     "pax_minimum": 2,
-    "pax_maximum": 12
+    "pax_maximum": 12,
+    "tag": "open"
   },
   {
     "id": 5,
@@ -248,7 +252,8 @@
     ],
     "duration": "1 Day",
     "pax_minimum": 4,
-    "pax_maximum": 15
+    "pax_maximum": 15,
+    "tag": "private"
 }
 
 ]

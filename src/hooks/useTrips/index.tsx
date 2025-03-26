@@ -13,8 +13,8 @@ export const useTrips = () => {
     }, 1000);
   }, [])
 
-  const getTripById = (id: string) => {
-    return trips.find(trip => trip.id.toString() === id);
+  const getTripById = (id: number) => {
+    return trips.find(trip => trip.id === id);
   };
 
   return {

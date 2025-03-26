@@ -12,22 +12,25 @@ import {currencyFormat} from '@/utils';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { NavParam } from '@/navigations/types';
+import Animated from 'react-native-reanimated';
+import { Button as ButtonElement } from '@react-navigation/elements'
 
-const {width, height} = Dimensions.get('window');
+const {width} = Dimensions.get('window');
 
 export const CarouselComponent = (props: TCarouselProps) => {
-  const {data, listMode} = props;
+  const {data, listMode, onSnapToItem} = props;
   const navigation = useNavigation<NativeStackNavigationProp<NavParam, 'Home'>>()
 
   const carouselRef = useRef<Carousel<any>>(null);
 
   const renderItem = ({item}: {item: TripTypes}) => {
     return (
-      <Pressable style={styles.card} onPress={() => navigation.navigate('Detail', {id: item.id})}>
-        <Image
+      <Pressable style={styles.card}>
+        <Animated.Image
           source={{uri: item.photos.owner[0]}}
           style={styles.image}
           resizeMode="cover"
+          sharedTransitionTag="coverTrip"
         />
         <Typography variant="$heading-32" color={colors.black}>
           {item.title}
@@ -51,21 +54,9 @@ export const CarouselComponent = (props: TCarouselProps) => {
               />
             </XStack>
           </YStack>
-          <Button
-            backgroundColor={colors['theme']}
-            borderRadius="$radius.radius-xl"
-            elevation={1}
-            shadowColor={colors.black}
-            shadowOpacity={0.1}
-            shadowRadius={2}
-            shadowOffset={{
-              height: 2,
-              width: 0,
-            }}
-            height={35}
-            width={100}>
-            <Typography variant='$heading-16' color={colors.white} fontStyle="italic">RSVP</Typography>
-          </Button>
+          <ButtonElement onPress={() => navigation.navigate('Detail', {id: item.id})}>
+            Info
+          </ButtonElement>
         </XStack>
       </Pressable>
     );
@@ -79,7 +70,7 @@ export const CarouselComponent = (props: TCarouselProps) => {
       sliderWidth={width}
       itemWidth={width * 0.8}
       layout={listMode === 'stack' ? 'stack' : 'default'}
-      
+      onSnapToItem={onSnapToItem}
     />
   );
 };

@@ -21,4 +21,5 @@ export type TripTypes = {
   duration: string;
   pax_minimum: number;
   pax_maximum: number;
+  tag: string;
 };

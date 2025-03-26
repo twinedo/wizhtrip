@@ -1,8 +1,8 @@
-import React from 'react'
-import { TamaguiProvider } from '@tamagui/core'
-import { NavigationContainer } from '@react-navigation/native';
-import Navigations from '@/navigations'
-import {config} from './src/tamagui/config'
+import React from 'react';
+import {TamaguiProvider} from '@tamagui/core';
+import {NavigationContainer} from '@react-navigation/native';
+import Navigations from '@/navigations';
+import {config} from './src/tamagui/config';
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
         <Navigations />
       </NavigationContainer>
     </TamaguiProvider>
-  )
-}
+  );
+};
 
-export default App
+export default App;
